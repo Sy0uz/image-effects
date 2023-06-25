@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# You can try this project on Netlify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open project on Netlify: [Image effects](https://cute-melomakarona-e8bf6e.netlify.app).
 
 ## Available Scripts
 
