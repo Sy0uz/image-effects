@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 30%;
+}
+
+.effectType {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    gap: 5px;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.buttonGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 6px;
+}

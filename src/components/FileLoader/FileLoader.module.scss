@@ -1,0 +1,40 @@
+.wrapper {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+
+    .preview {
+        display: none;
+        max-height: 400px;
+    }
+
+    .preview.active {
+        display: block;
+    }
+
+    .canvas {
+        max-height: 400px;
+    }
+
+    .canvas.closed {
+        display: none;
+    }
+
+    .upload {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fixedBlock {
+        position: fixed;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 8px 10px;
+        top: 80px;
+        right: 20px;
+    }
+}
